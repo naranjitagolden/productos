@@ -1,28 +1,30 @@
-== README
+==Productos
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Challenge 2 Rails I Aplicación en Rails para MakeItReal - Productos
 
-Things you may want to cover:
+En este Challenge aprendí muchas cosas, lo repetí varias veces, cada vez que lo repetía los conceptos y el funcionamiento del CRUD y del modelo MVC me quedaron más claros. 
 
-* Ruby version
+- Algunos de los conceptos aprendidos e investigados fueron:
+- Modelos y Controladores
+- Migración en Rails
+- Comandos para las diferentes acciones [rails generate modelo / controlador / rake db: migrate]
+- Form_for helpers
+- fijar el resource en la ruta
+- Active record que es y como funciona: Es la M en MVC , es la capa del sistema responsable por representar los datos y la lógica que compone los datos, cuando se hace la migración, se crea una tabla que contiene los datos y se crea la conexión para alimentar la tabla con esos datos. a esto se le llama Mapeo Relacional de Objetos- ORM 
 
-* System dependencies
+- Validaciones en el modelo: generar pequeñas validaciones básicas dentro del modelo
 
-* Configuration
+- Conocí la carpeta db que contiene entre otros los archivos que se generan de las migraciones donde se puede ver como se generan las tablas que contienen los datos. el schema.rb
+-
+- El concepto de database tables y de  pluralization system in rails que para el  modelo es singular y para la tabla es plural.
 
-* Database creation
+EN EL CONTROLADOR aprendí a:
+- Definir los métodos Index / Show / New / Edit / Create / Update / Destroy / y que Rails lee ingles así que deben escribirse en este idioma y en la medida de lo posible en ese orden. Private se usa para evitar que acciones malintencionadas afecten el funcionamiento de la aplicación.
+- Definir condicionales para redireccionar las páginas al recibir una acción. 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+EN LAS VISTAS:
+Aprendí a:
+- Poner el contenido en las tablas
+- Definir condicionales para las validaciones
+- A definir el _form y renderizarlo en las vistas para no repetir código
+- Asegurar la navegación básica por medio de links
